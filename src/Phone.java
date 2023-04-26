@@ -1,5 +1,9 @@
 public abstract class Phone {
     private String brand;
+    protected int batteryLevel;
+    protected int storageLevel;
+    protected boolean isSignalAvailable;
+    protected boolean isCallAnswered;
 
     public Phone(String brand) {
         this.brand = brand;
